@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Gustavo Souza">
+  <meta name="description" content="Portfólio da desenvolvedor Gustavo Souza Santana">
+  <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript">
+  <title>Gustavo Souza</title>
+  <link rel="icon" href="icon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <nav data-menu="suave">
+      <p><a href="#home">&lsaquo;GS/&rsaquo;</a></p>
+      <button data-menu="button" aria-controls="menu"></button>
+      <ul data-menu="list" id="menu">
+        <a href="#home">
+          <li>Home</li>
+        </a>
+        <a href="#sobre">
+          <li>Sobre</li>
+        </a>
+        <a href="#RV">
+          <li>RV</li>
+        </a>
+        <a href="#atividade">
+          <li>Atividades</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="principal" id="home">
+      <div class="principal__left">
+        <h1>Olá, eu sou</h1>
+        <span class="principal__sentence"></span>
+        <span class="principal__input-cursor"></span>
+        <h1>Desenvolvedor Fullstack</h1>
+        <div class="principal__botao">
+          <a href="https://www.linkedin.com/in/gustavo-souza-bab494231/" target="_blank">
+            <div class="principal__botao-linkedin">
+              <img src="./assets/linkedin.png" alt="" />
+              <p>LinkedIn</p>
+            </div>
+          </a>
+          <a href="https://github.com/SouzaGs047/gustavosouza" target="_blank">
+            <div class="principal__botao-github">
+              <img src="./assets/github.png" alt="" />
+              <p>Github</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="principal__right">
+        <img src="./assets/code.png"
+          alt="Ilustração representando uma desenvolvedora sentada na cadeira mexendo no notebook com ambiente em volta."
+          data-tilt>
+      </div>
+
+      <div class="scroll" data-menu="suave"><a href="#sobre">
+          <p> scroll down </p> <img src="./assets/scroll.png" alt="Setinha indicando para rolar a tela para baixo">
+        </a></div>
+    </section>
+
+    <section class="sobre-mim" id="sobre" data-anime="js-scroll">
+      <div class="sobre-mim__foto">
+        <img src="./assets/FOTO.jpeg" alt="Uma selfie da Gabriela Souza" />
+      </div>
+      <div class="sobre-mim__descricao">
+        <h1>Sobre mim</h1>
+        <h2>São Paulo, São Paulo</h2>
+        <p>
+          Olá! Atualmente, sou estudante do terceiro ano do Ensino Médio Técnico no Senac-SP, com especialização em
+          Informática.
+          Possuo habilidades sólida em manutenção de computadores, do Pacote Office (Word, Excel e PowerPoint), e noções
+          básicas
+          de Java e banco de dados.
+          <br><br>
+          Com dedicação aos estudos, estou cursando Análise e Desenvolvimento de Sistemas no Centro Universitário Senac
+          - Santo Amaro e continuo meus estudos,
+          para futuramente me tornar um desenvolvedor fullstack, tendo em mente que estamos sempre em constante
+          aprendizado.
+
+        </p>
+        <div class="sobre-mim__descricao-buttons">
+          <a href="./assets/Currículo-Gustavo_Souza.pdf" download="">
+            <div class="sobre-mim__descricao-buttons-curriculo">
+              <img src="./assets/download-da-nuvem.png" alt="" />
+              <p>Currículo</p>
+            </div>
+          </a>
+          <a href="mailto: souza.gs047@gmail.com?subject=Gustavo, vim pelo seu portfólio! :)" target="_blank">
+            <div class="sobre-mim__descricao-buttons-email">
+              <img src="./assets/email.png" alt="" />
+              <p>E-mail</p>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="RV" id="RV" data-anime="js-scroll">
+      <h1>Realidade Virtual (RV)</h1>
+      <div class="RV__wrapper">
+        <section class="RV__lugares">
+          <ul data-tab="menu">
+            <li>O que é?</li>
+            <li>Como usar?</li>
+            <li>Benefícios</li>
+          </ul>
+
+        </section>
+        <div class="RV__descricao" data-tab="content">
+          <section data-anime="show-right">
+            <h2>O que é realidade virtual?</h2>
+            <p class="RV__descricao-local">Quem sabe na sua empresa?</p>
+
+            <p>A realidade virtual diz respeito a um ambiente no qual é possível criar uma realidade física por meio de
+              aparatos tecnológicos, simulando o ambiente real por meio de um sistema computacional. É uma realidade
+              totalmente virtual, criada artificialmente, ainda que seja semelhante ao ambiente verdadeiro.
+              <br><br>
+              <p>Assim, o usuário tem uma percepção bastante realista, podendo, muitas vezes, incluir sensações táteis
+                no processo. Nos últimos anos, é uma área que tem crescido consideravelmente, com a criação de óculos
+                especiais e headsets, que permitem uma imersão mais precisa do público, seja para uso para lazer, seja
+                empresarial.
+              </p>
+              <br>
+            </p>
+          </section>
+
+          <section data-anime="show-right">
+            <h2>Como funciona a realidade virtual?</h2>
+            <p class="RV__descricao-local">Aprenda a magia do mundo virtual</p>
+            <p>
+              A realidade virtual utiliza efeitos visuais e sonoros, bem como gadgets que simulam, de forma virtual, um
+              ambiente real. O usuário pode interagir com o que está vendo ou não, de acordo com as configurações do
+              sistema.
+              <br><br>
+              Dipositivos RV:
+              <br><br>
+              <b>Óculus</b> e <b>luvas</b> para RV, para enxergar e manipular o meio virtual.
+              <br><br>
+              <b>Bicicleta ergométrica</b> para se aumentar a imersão no mundo virtual, se divertindo e exercitando ao
+              mesmo tempo.
+              <br><br>
+              <b>Cadeiras 360</b> recria os movimentos da simulação virtual, podendo simular desde uma montalha russa
+              como o
+              assento de um automóvel ou até mesmo um assento de uma nave espacial.
+              <br><br>
+              <b>Esteiras</b> que captam o movimento do usuário e lhe dá liberdade de movimento ao meio virtual,
+              aumentando assim a imersão e as possibilidades de simulações.
+
+            </p>
+            <br>
+          </section>
+
+          <section data-anime="show-right">
+            <h2>Quais os benefícios da realidade virtual?</h2>
+            <p class="RV__descricao-local">RV é o futuro</p>
+            <p>
+              Seu maior objetivo é projetar no meio digital elementos do mundo físico, em tempo real. Para isso,
+              utiliza-se técnicas e ferramentas tecnológicas para aumentar a sensação de realidade para o indivíduo. Em
+              suma, a RV consiste em uma simulação do mundo real em uma plataforma informatizada.
+            </p>
+            <br>
+          </section>
+        </div>
+    </section>
+
+    </div>
+    </section>
+
+    <section class="atividade" id="atividade" data-anime="js-scroll">
+      <h1>Atividades</h1>
+      <div class="atividade__wrapper">
+
+        <section class="atividade__card">
+          <a href="assets/CARDS.pdf" target="_blank">
+            <img src="./assets/projeto2.png" alt="Imagem da capa do trabalho de CARDs" class="projeto-img" />
+          </a>
+          <h2>Cards Yu Gi Oh - Animais </h2>
+          <p>
+            Atividade proposta para realizar 08 cards de animais como se fossem monstros de YU Gi Oh. Nesses cards
+            apresentam as
+            características do filo de cada animal e suas funções químicas
+            orgânicas e/ou inorgânicas e os respectivos grupos funcionais.
+          </p>
+          <span>Trabalho 4º bimestre</span>
+          <a href="assets/CARDS.pdf" target="_blank">
+            <div class="atividade__card-button">
+              <img src="./assets/link.png" alt="">
+              Visualizar
+            </div>
+          </a>
+        </section>
+
+        <section class="atividade__card">
+          <a href="https://sway.office.com/p8fEBpUAO18uPzLt?ref=Link&classId=e7e18cf3-3f79-479d-a09a-50ae63dcf071&assignmentId=a9e2eb41-e401-4f99-bae5-05264982b082&submissionId=317c0c24-e4ec-f780-2525-ca2143c2f397"
+            target="_blank">
+            <img src="./assets/projeto1.png" alt="Animais reunidos " class="projeto-img" />
+          </a>
+          <h2>Animais - Senac</h2>
+          <p>
+            Atividade passada para fotografar animais espalhados pelo campus do Senac (vertebrados e invertebrados) e
+            montar um portfólio
+            para identificar as espécies fotografadas classificando em nome científico, ordem e família do animal.
+          </p>
+          <span>Trabalho 4º bimestre</span>
+          <a href="https://sway.office.com/p8fEBpUAO18uPzLt?ref=Link&classId=e7e18cf3-3f79-479d-a09a-50ae63dcf071&assignmentId=a9e2eb41-e401-4f99-bae5-05264982b082&submissionId=317c0c24-e4ec-f780-2525-ca2143c2f397"
+            target="_blank">
+            <div class="atividade__card-button">
+              <img src="./assets/link.png" alt="">
+              Visualizar
+            </div>
+          </a>
+        </section>
+
+        <section class="atividade__card">
+          <a href="https://www.flipsnack.com/F579AB99E8C/batom-radioativo.html?classId=e7e18cf3-3f79-479d-a09a-50ae63dcf071&assignmentId=e47b8913-ae3d-4b82-929e-88e120d8f7eb&submissionId=089fc1d6-ee71-ced1-3d64-32ca6f66e539&classId=e7e18cf3-3f79-479d-a09a-50ae63dcf071&assignmentId=e47b8913-ae3d-4b82-929e-88e120d8f7eb&submissionId=353ff5d2-531c-1232-1ad4-298bfb54ec78"
+            target="_blank">
+            <img src="./assets/projeto3.png" alt="imagem radiação" class="projeto-img" />
+          </a>
+          <h2>Radiação - Quadrinho</h2>
+          <p>
+            Atividade com intuito de alertar os perigos da radiação, ao passo que, constroi uma critica a busca do
+            padrão de beleza perfeito. Através de qualquer custo mesmo colocando em risco a sua propria saúde.
+          </p>
+          <span>Trabalho 3º bimestre</span>
+          <a href="https://www.flipsnack.com/F579AB99E8C/batom-radioativo.html?classId=e7e18cf3-3f79-479d-a09a-50ae63dcf071&assignmentId=e47b8913-ae3d-4b82-929e-88e120d8f7eb&submissionId=089fc1d6-ee71-ced1-3d64-32ca6f66e539&classId=e7e18cf3-3f79-479d-a09a-50ae63dcf071&assignmentId=e47b8913-ae3d-4b82-929e-88e120d8f7eb&submissionId=353ff5d2-531c-1232-1ad4-298bfb54ec78"
+            target="_blank">
+            <div class="atividade__card-button">
+              <img src="./assets/link.png" alt="">
+              Visualizar
+            </div>
+          </a>
+        </section>
+
+        <section class="atividade__card">
+          <a href="https://www.canva.com/design/DAFIrjlBTFw/HevqPlreXHTR0nmTz9e0pw/view?utm_content=DAFIrjlBTFw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton&classId=e7e18cf3-3f79-479d-a09a-50ae63dcf071&assignmentId=29b57908-2db5-48de-a181-6de64366dd7d&submissionId=720c49f5-af5b-fe3f-2eee-0d1dcf94bd5c&classId=e7e18cf3-3f79-479d-a09a-50ae63dcf071&assignmentId=29b57908-2db5-48de-a181-6de64366dd7d&submissionId=371761fa-7e5b-6c1b-c72d-12f736e6fd2a#2"
+            target="_blank">
+            <img src="./assets/projeto4.png" alt="Imagem de conscientização contra as drogas" class="projeto-img" />
+          </a>
+          <h2>Drogas ilícitas - Metafetamina</h2>
+          <p>
+            Seminario realizado para advertir e conscientizar sobre o uso de drogas, especificamente a tratado no
+            trabalho a "Metafetamina" e seus efeitos devastadores, tanto no âmbito pessoal, social, profissional e
+            familiar.
+          </p>
+          <span>Trabalho 3º bimestre</span>
+          <a href="https://www.canva.com/design/DAFIrjlBTFw/HevqPlreXHTR0nmTz9e0pw/view?utm_content=DAFIrjlBTFw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton&classId=e7e18cf3-3f79-479d-a09a-50ae63dcf071&assignmentId=29b57908-2db5-48de-a181-6de64366dd7d&submissionId=720c49f5-af5b-fe3f-2eee-0d1dcf94bd5c&classId=e7e18cf3-3f79-479d-a09a-50ae63dcf071&assignmentId=29b57908-2db5-48de-a181-6de64366dd7d&submissionId=371761fa-7e5b-6c1b-c72d-12f736e6fd2a#2"
+            target="_blank">
+            <div class="atividade__card-button">
+              <img src="./assets/link.png" alt="">
+              Visualizar
+            </div>
+          </a>
+
+        </section>
+
+        <section class="atividade__card">
+          <a href="assets/Fissão e Fusão.pdf" target="_blank">
+            <img src="./assets/projeto5.jpg" alt="Imagem de processos de fusão e Fissão" class="projeto-img" />
+          </a>
+          <h2>Fusão e Fissão nuclear</h2>
+          <p>
+            Seminario realizado para melhor entendimento dos processos de fusão e fissão nuclear, como ocorem de forma
+            natural ou induzida pelo ser humano e o que ocorre após esse processo.
+          </p>
+          <span>Trabalho 2º bimestre</span>
+          <a href="assets/Fissão e Fusão.pdf" target="_blank">
+            <div class="atividade__card-button">
+              <img src="./assets/link.png" alt="">
+              Visualizar
+            </div>
+          </a>
+        </section>
+
+        <section class="atividade__card">
+          <a href="assets/Pilhas e Baterias.pdf" target="_blank">
+            <img src="./assets/projeto6.jpeg" alt="Imagem de conscientização contra as drogas" class="projeto-img" />
+          </a>
+          <h2>Baterias e Pilhas</h2>
+          <p>
+            Mapa mental realizado com o intuito de reunir todos os assuntos abordados no bimestre como: <br> <br>
+            Pilhas e Baterias, assim como seus criadores, métodos de funcionamento e seus características física e
+            químicas.
+          </p>
+          <span>Trabalho 1º bimestre</span>
+          <a href="assets/Pilhas e Baterias.pdf" target="_blank">
+            <div class="atividade__card-button">
+              <img src="./assets/link.png" alt="">
+              Visualizar
+            </div>
+          </a>
+
+        </section>
+
+      </div>
+    </section>
+
+    <footer>
+      <p>Desenvolvido com muito carinho por</p><a href="https://www.linkedin.com/in/gustavo-souza-bab494231/"
+        target="_blank">
+        <span> Gustavo Souza</span></a>
+    </footer>
+  </main>
+
+  <script src="./js/script.js" type="module"></script>
+  <script src="./js/modules/vanilla-tilt.min.js"></script>
+</body>
+
+</html>
